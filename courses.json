@@ -2,13 +2,18 @@
     "courses": [
         {
             "name": "Security QA",
-            "lecturer": "TBD",
-            "courseNumber": "TBD"
+            "lecturer": "Simon",
+            "number": "123"
         },
         {
-            "name": "TBD",
-            "lecturer": "TBD",
-            "courseNumber": "TBD"
+            "name": "Web Development",
+            "lecturer": "Christine",
+            "number": "234"
+        },
+        {
+            "name": "Web Architecture",
+            "lecturer": "Sepidah",
+            "number": "345"
         }
     ]
 }
