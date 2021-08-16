@@ -1,0 +1,14 @@
+{
+    "courses": [
+        {
+            "name": "Security QA",
+            "lecturer": "TBD",
+            "courseNumber": "TBD"
+        },
+        {
+            "name": "TBD",
+            "lecturer": "TBD",
+            "courseNumber": "TBD"
+        }
+    ]
+}

@@ -1,5 +1,9 @@
 import './style.scss'
 
+import courses from "./courses.json";
+
+console.log(courses);
+
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
 
