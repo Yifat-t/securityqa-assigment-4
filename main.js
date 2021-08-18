@@ -22,7 +22,7 @@ document.querySelector('#app').innerHTML = `
 
   <a href="security.html">Security</a>
 
-  <a href="bad_example.html">Bad Example</a>
+  <a href="bad-example.html">Bad Example</a>
 
   <h2>Courses This Semester</h2>
 ` + coursesHTML;
