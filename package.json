@@ -8,7 +8,7 @@
     "test-unit": "mocha test/unit/*.test.js",
     "test-e2e": "mocha test/e2e/*.test.js",
     "test": "mocha test/**/*.test.js",
-    "eslint": "eslint main.js"
+    "eslint": "eslint **/**/*.js"
   },
   "devDependencies": {
     "chai": "^4.3.4",
