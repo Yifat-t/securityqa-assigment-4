@@ -1,19 +1,19 @@
 import './style.scss'
 
-import courses from "./courses.json";
+import courses from './courses.json'
 
-var coursesHTML = `<table>
+let coursesHTML = `<table>
                     <tr>
                       <th>Course Name</th>
                       <th>Course Number</th>
                       <th>Lecturer</th>
-                    </tr>`;
+                    </tr>`
 
-for (var i = 0; i < courses.courses.length; i++) {
-  coursesHTML += `<tr><td>` + courses.courses[i].name + `</td><td>` + courses.courses[i].number + `</td><td>` + courses.courses[i].lecturer + `</td></tr>`;
+for (let i = 0; i < courses.courses.length; i++) {
+  coursesHTML += '<tr><td>' + courses.courses[i].name + '</td><td>' + courses.courses[i].number + '</td><td>' + courses.courses[i].lecturer + '</td></tr>'
 }
 
-coursesHTML += `</table>`;
+coursesHTML += '</table>'
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Assignment #4!</h1>
@@ -25,4 +25,4 @@ document.querySelector('#app').innerHTML = `
   <a href="bad-example.html">Bad Example</a>
 
   <h2>Courses This Semester</h2>
-` + coursesHTML;
+` + coursesHTML
