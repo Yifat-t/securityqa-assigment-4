@@ -4,7 +4,7 @@ document.querySelector('#qa-header').innerHTML = `
   <h1>Quality Assurance</h1>
 `
 document.querySelector('#qa-body').innerHTML = `
-  <h3>List of Quality Assurance measures, added or could be set up for the project:</h3>
+  <h3>List of Quality Assurance measures added or could be set up for the project:</h3>
 
   <ul>
     <li>Version Control - using public repository in GitHub, easy integration with our build tools</li>
