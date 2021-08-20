@@ -6,10 +6,27 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bad Example</title>
+    <style>
+        #bad-example-header {
+            font-family: Avenir, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 60px;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="badExample">Bad Example</div>
+    <h1 id="bad-example-header">Bad Example</h1>
+
+    <p>Below is an image/asset loaded via HTTP and not HTTPS. Generally loading external asset let alone over an
+        insecure protocol is considered a bad security practice.</p>
+
+    <p>How this it can be avoided - we can add a build step where we would scan the code base and make sure that all
+        of
+        the assets included in the project are loaded via HTTPS.</p>
 
     <img src="http://via.placeholder.com/300.png/09f/fff" />
 </body>
