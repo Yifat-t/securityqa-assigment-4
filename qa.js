@@ -21,6 +21,7 @@ document.querySelector('#qa-body').innerHTML = `
     <li>Build tools and deployment pipeline - currently using the tools and the pipeline described in the class since the project is rather small (all in all 4 static pages). With that bing said, I utilize the 'scripts' section
         of the package.json file to define different project build options. This should ultimately save time and hopefully avoid costly mistakes. Some of the tasks include running the project in development mode,
         runnin unit and end-to-end test, seprately or together, and building a local preview of the production package (assets, scripts, etc.).
-        On the pipeline side, as discrubed in lectures, the app uses Netlify's build command option to build the project for production usage.</li>
+        On the pipeline side, as discrubed in lectures, the app uses Netlify's build command option to build the project for production usage.
+        Finally, the assets js/css are bundled and minified to reduce the amount of bytes needed to be transfered to load the page.</li>
   </ul>
 `
